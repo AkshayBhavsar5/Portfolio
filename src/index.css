@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+#main-container{
+    display: grid;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+   
+}
+#app-conatiner{
+	background: linear-gradient(20deg, hsl(130deg, 8%, 14%) 40%, hsl(0deg, 0%, 13%) 100%);
+}
+/* #about-1{
+	background: linear-gradient(20deg, hsl(130deg, 8%, 14%) 40%, hsl(0deg, 0%, 13%) 100%); 
+} */
+
+#skill-main{
+  
+}
