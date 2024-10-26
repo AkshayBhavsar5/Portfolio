@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
-import dbConnection from "../Database/dbConnection.js";
+import dbConnection from "./Controller/Database/dbConnection.js";
 import {errorMiddleware} from "./middlewares/error.js"
 import messageRouter from "./Router/messageRoutes.js"
 
